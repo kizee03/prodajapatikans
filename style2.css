@@ -1,0 +1,117 @@
+body{
+    background-image: url(a1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar ul{
+
+
+    list-style-type: none;
+    background-color: grey;
+    padding: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+
+}
+
+.navbar a{
+
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: aquamarine;
+    border-radius: 90px;
+    
+
+}
+.navbar li{
+
+    float: right;
+}
+h1{
+    text-align: center;
+    color: white;
+    outline-style: groove;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1:hover{
+    border-radius: 90px;
+    background-color: aquamarine;
+    color: black;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    
+}
+h2:hover{
+    color: aquamarine;
+    border-style: groove;
+    border-color: white;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+.kontakt{
+    max-width: 600px;
+    margin: auto;
+}
+.kontakt form{
+    display: flex;
+    flex-direction: column;
+}
+.kontakt label{
+    margin-top: 10px;
+
+}
+.kontakt input{
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.kontakt textarea{
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    
+    
+}
+
+.kontakt button{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.kontakt button:hover{
+    background-color: rgb(0, 255, 21);
+}
+footer{
+    color: white;
+    text-align: center;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
